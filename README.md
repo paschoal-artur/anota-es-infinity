@@ -5,3 +5,5 @@ Paas : Plataforma como serviço. -> para programar
 Iaas : Infraestrutura.
 Google colab
 Yahoo finance
+Inverte texto -> notepad online 
+OpenBB, fazer registro e download de terminal
