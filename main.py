@@ -1,7 +1,7 @@
 def solve_sudoku(board: list[list[int]]) -> list[list[int]]:
     def resolve(board: list[list[int]]) -> bool:
         i, j = encontra_célula_vazia(board)
-        if i == -1 or j == -1:
+        if i == None or j == None:
             return True  # Já está resolvido nesse caso
 
         for num in range(1, 10):
@@ -47,4 +47,4 @@ def encontra_célula_vazia(board: list[list[int]]) -> tuple[int, int]:
         for j in range(9):
             if board[i][j] == 0:
                 return i, j
-    return -1, -1
+    return None, None
